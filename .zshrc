@@ -1,0 +1,1 @@
+. ~/setupfiles/zsh/rc

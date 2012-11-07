@@ -1,0 +1,6 @@
+alias lc="lolcommits -l"
+alias tton="ec2-start-instances i-5b631d20"
+alias ttoff="ec2-stop-instances i-5b631d20"
+alias ls='ls -G'
+alias ll='ls -l'
+alias la='ls -a'

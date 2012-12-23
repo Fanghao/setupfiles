@@ -1,0 +1,34 @@
+[user]
+	name = Fanghao Chen
+	email = chen.fanghao517@gmail.com
+[alias]
+	co = checkout
+
+	# Log display from screencast, with train tracks.
+	ll = log --graph --date=short --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ad%Creset'
+
+	# Alternate log display from Scott Chacon: shows colors for decorations but no date
+	l = log --pretty=oneline --abbrev-commit --graph --decorate
+
+	# short form status
+	s = status --short
+
+	# show me describe from most recent version tag
+	v = describe --match version*
+
+	c = commit -avem ":trollface:"
+
+[apply]
+	whitespace = nowarn
+[core]
+	# setup textmate for commits
+	editor = emacs
+[color]
+	# colors from screencast
+	diff = auto
+	status = auto
+	branch = auto
+	ui = true
+[help]
+	# auto run command if only one suggestion
+	autocorrect = 1

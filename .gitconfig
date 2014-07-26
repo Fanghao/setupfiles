@@ -21,7 +21,7 @@
 [apply]
 	whitespace = nowarn
 [core]
-	editor = subl -w
+	editor = subl
 [color]
 	# colors from screencast
 	diff = auto
